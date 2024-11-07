@@ -30,6 +30,16 @@ In a rolling shutter, each line or row of pixels is exposed sequentially, which 
    - **Periodicity and Customization**:
      - By altering the `num_images`, `interval`, and `movement_step` parameters, users can modify the speed and smoothness of the simulated effect. Adjusting the number of rows contributed by each frame (`n_lignes_blocs`) further changes how "stretched" or "disjointed" the final effect appears, mimicking different shutter speeds or frame rates.
 
+Here are four sample images from the 512-image sequence, showing the object's movement from the beginning to the end:
+
+![Image 1](images_movement/image_001.png)  
+![Image 128](images_movement/image_337.png)  
+![Image 256](images_movement/image_510.png)  
+
+The final composite image below summarizes the complete sequence, merging all 512 images into a single frame:
+
+![Composite Image](images_movement/resultat.png)
+
 ### 4. Project Structure and Usage
 
 - **Functions**:
