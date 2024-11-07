@@ -32,13 +32,13 @@ In a rolling shutter, each line or row of pixels is exposed sequentially, which 
 
 Here are four sample images from the 512-image sequence, showing the object's movement from the beginning to the end:
 
-![Image 1](images_movement/image_001.png)  
-![Image 128](images_movement/image_337.png)  
-![Image 256](images_movement/image_510.png)  
+![Image 1](image_001.png)  
+![Image 128](image_337.png)  
+![Image 256](image_510.png)  
 
 The final composite image below summarizes the complete sequence, merging all 512 images into a single frame:
 
-![Composite Image](images_movement/resultat.png)
+![Composite Image](resultat.png)
 
 ### 4. Project Structure and Usage
 
